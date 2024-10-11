@@ -1,0 +1,112 @@
+*
+{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box; 
+   /* background:; */
+}
+   .bio
+   {
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%; 
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-image:url("https://static.vecteezy.com/system/resources/thumbnails/022/967/276/small/the-landscape-of-natural-grass-field-and-trees-with-ai-generated-free-photo.jpg ;");
+    object-fit: contain;
+   
+}
+.navbar
+{
+    padding: 40px;
+    background-color: darkslategrey;
+    color: aliceblue;
+}
+
+.bio h1
+{
+    font-family: monospace;
+    text-align: center;
+}
+.bio
+{
+    margin: 20px;
+}
+ .click1
+ {
+     background-color: darkslategrey;
+     color: WHITE;
+     padding: 2px 4px;
+     border: 2px solid black;
+     border-radius:2px;
+ }
+    .click1:hover
+    {
+        background-color: rgb(89, 214, 214); 
+        color: olivedrab;
+        transition: 2s;
+    }
+     .click2
+        {
+            background-color: darkslategrey;
+            color: WHITE;
+            padding: 2px 4px;
+            border: 2px solid black;
+            border-radius:2px;
+        }
+        .click2:hover
+        {
+            background-color: rgb(94, 255, 255);
+            color: black;
+            transition: 2s;
+        }
+.degradable
+{
+    
+    display: flex;
+    padding: 150px;
+}
+.degradable img
+{
+  border-radius: 100%;
+  height: 200px;
+ 
+}
+.degradable p
+{
+    max-width: 40%;
+   font-style: oblique;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border-radius: 3px solid lightgrey;
+   text-decoration: none;
+}
+.nondegradable
+{
+    display: flex;
+    padding: 50px;
+    margin-left: 25%;
+}
+.nondegradable img{
+    border-radius: 50%;
+}
+.nondegradable p
+{
+    max-width: 40%;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* .bio .non-degradable { 
+    /* transition: transform 420ms; */
+ 
+.degradable:hover
+{
+    transform: scale(1.09);
+    transition: transform 420ms;
+    
+}
+.nondegradable:hover
+{
+    transform: scale(1.09);
+    transition: transform 420ms;
+    
+}
