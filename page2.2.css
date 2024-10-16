@@ -1,0 +1,262 @@
+*
+{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+  background-color: rgb(12, 11, 11);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+.content
+{
+background-image:url("https://www.recyclingpyrolysisplant.com/uploads/20221228/20221228101136.png"); 
+background-size: cover;
+background-position: center center;
+max-width: 100%;
+background-repeat: no-repeat;
+height: 550px;
+}
+.content p
+{
+    font-size: large;
+    font-family: 'timenewroman';
+    max-width: 50%;
+    padding: 40px;
+    color: black;
+    background-color: white;
+}
+.content img
+{
+    /* font-size: large;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    
+    padding: 40px;
+    color: black;
+    /* background-color: white; */
+    height: 50px;
+    width: 40px;
+}
+.content2
+{
+    display: flex;
+     margin-left: 10%; 
+}
+.content2 h1
+{
+    padding: 20px; 
+    font-family: "Oswald", Sans-serif; 
+    /* margin-left: 10%; */
+    
+
+}
+.content2 p
+{
+    max-width: 50%;
+    /* padding: 30px; */
+   margin-top: 10%;
+     /* margin-left: 10%;  */
+    
+}
+.content2 img
+{
+    height: 350px;
+    padding: 50px;
+}
+.lotus2
+{ 
+    background-color: rgb(18, 16, 16);
+    max-width: 50%;
+    border: 10%;
+     margin-left: 15%; 
+    padding: 40px;
+    border: 5px solid rgb(32, 28, 28);
+    border-radius: 50px;
+    /* margin-top: 10%; */
+    margin-right: 20%;
+    text-align: center;
+    color: aliceblue;
+}
+.lotus2 p
+{
+    max-width: 90%;
+}
+.lotus2 h1{
+    font-family: "Oswald", Sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 30px;
+    margin-left: 20px;
+}
+.lotus21 h1
+{
+    padding: 40px;
+    margin-left: 20px;
+}
+.lotus21  img
+{
+    width: 30%;
+    height: 30%;
+    padding: 30px;
+}
+.lotus21
+{
+    display: flex;
+    background-color: rgb(41, 38, 38);
+    padding: 30px;
+}
+.process
+{
+    display: flex;
+     text-align: center; 
+    /* margin-left: 10%; */
+    padding: 50px;
+    color: white;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("https://img.freepik.com/free-photo/plain-smooth-green-wall-texture_53876-129746.jpg");
+}
+.process1 img
+{
+height: 200px;
+width: 230px;
+border-radius: 80%;
+}
+.process1:hover
+{
+    transform: scale(1.09);
+    transition: transform 420ms;
+}
+.process1 p
+{
+ max-width: 70%;
+ text-align: center;
+ margin-left: 10%;
+}
+.process2:hover
+{
+    transform: scale(1.09);
+    transition: transform 420ms;
+}
+.process2 img
+{
+    height: 200px;
+    width: 230px;
+    border-radius: 80%;
+}
+.process2 p
+{
+ max-width: 70%;
+ text-align: center;
+ margin-left: 10%;
+}
+.process3 img
+{
+    height: 200px;
+    width: 230px;
+    border-radius: 80%;
+}
+.process3 p
+{
+ max-width: 70%;
+ margin-left: 10%;
+}
+.process3:hover
+{
+    transform: scale(1.09);
+    transition: transform 420ms;
+}
+.videos
+{
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("https://img.freepik.com/free-photo/plain-smooth-green-wall-texture_53876-129746.jpg");
+}
+.video1:hover
+{
+    transform: scale(1.09);
+    transition: transform 420ms;
+}
+.video1
+{
+    border:black solid 2px;
+    max-width: 40%;
+    border-radius: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.video2:hover
+{
+    transform: scale(1.09);
+    transition: transform 420ms;
+}
+.video2
+{
+    border:black solid 2px;
+    max-width: 40%;
+    border-radius: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.video3:hover
+{
+    transform: scale(1.09);
+    transition: transform 420ms;
+}
+.video3
+{
+    border:black solid 2px;
+    max-width: 40%;
+    border-radius: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.button
+{
+     background-color: rgb(43, 40, 40); 
+     padding: 50px;
+    padding-left: 90%
+    
+}
+footer
+ {
+    padding: 50px 4% 10px;
+    color: white;
+    background-color: black;
+ }
+ footer h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 30px 0;
+    color: white;
+ }
+ footer .row 
+ {
+    display: flex;
+    align-items: start;
+    padding: 10px 0px ;
+ }
+ footer .column
+ {
+    margin: 10px 50px;
+ }
+ footer .column a 
+ {
+    text-decoration: none;
+    padding: 8px;
+    color:#666;
+    display: block;
+    font-size: 0.8rem;
+
+ }

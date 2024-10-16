@@ -1,0 +1,296 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+header
+{
+    padding: 40px;
+    text-align: center;
+    background-color: #c3c37e;
+    font-family: 'Times New Roman', Times, serif; 
+     color: white;
+}
+.lotus
+{
+ background-image:url("https://th-thumbnailer.cdn-si-edu.com/sFH2sUKc-MHwjYSk7pKsj1xuv8c=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/1f/71/1f7180c1-6eed-446d-babf-7416e66753cd/file-20181026-7065-1a6tzvv.jpg"); 
+    background-size: cover;
+  background-position: center center;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+.lotus h1
+{ 
+    font-size: large;
+    font-style: italic;
+    font-family:  "Roboto", sans-serif; ;
+    font-weight: bold;
+     /* padding: 50px;  */
+     color: white; 
+   
+}
+.lotus p
+{
+    font-size: large;
+    font-style: italic ;
+    font-family: monospace ;
+    font-weight: bold;
+    padding: 50px;
+     max-width: 80%; 
+     /* color: white;  */
+}
+.lotus1
+{
+    display: flex;
+     margin-left: 10%; 
+}
+.lotus1 h1
+{
+    padding: 10px; 
+    font-family: "Oswald", Sans-serif; 
+    margin-left: 10%;
+
+}
+.lotus1 p
+{
+    max-width: 50%;
+    padding: 30px;
+    margin-top: 10%;
+    /* margin-right: 10%;  */
+    
+}
+.lotus1 img
+{
+    height: 350px;
+    padding: 50px;
+}
+.lotus2
+{ 
+    background-color: rgb(96, 159, 96);
+    max-width: 50%;
+    border: 10%;
+     margin-left: 15%; 
+    padding: 40px;
+    border: 5px solid rgb(245, 234, 234);
+    border-radius: 50px;
+    /* margin-top: 10%; */
+    margin-right: 20%;
+    text-align: center;
+    color: aliceblue;
+}
+.lotus2 p
+{
+    max-width: 90%;
+}
+.lotus2 h1{
+    font-family: "Oswald", Sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 30px;
+    margin-left: 20px;
+}
+.lotus21 h1
+{
+    padding: 40px;
+    margin-left: 20px;
+}
+.lotus21  img
+{
+    width: 30%;
+    height: 30%;
+    padding: 30px;
+}
+.lotus21
+{
+    display: flex;
+    background-color: rgb(72, 97, 72);
+    padding: 30px;
+}
+.process
+{
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/09/22/55386/seagrass-02.jpg");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    color: white;
+    
+}
+.harvest img
+{
+ height: 200px;
+ width: 350px;
+}
+.harvest p
+{
+    max-width: 70%;
+}
+.harvest
+{
+    padding-left: 10px;
+    /* color: aliceblue; */
+}
+.harvest:hover
+{
+    transform: scale(1.09);
+    transition: transform 420ms;
+}
+.extract
+{
+    max-width: 23%;
+    /* padding: 10px; */
+    /* margin-right: 20%;  */
+}
+.extract:hover
+{
+    transform: scale(1.09);
+    transition: transform 420ms;
+}
+.extract img
+{
+    height: 200px;
+    width: 350px;
+}
+.spinning:hover
+{
+    transform: scale(1.09);
+    transition: transform 420ms;
+}
+.spinning img
+{
+    height: 200px;
+    width: 350px;
+}
+.spinning h3
+{
+  text-align: center;
+}
+.dye img
+{ 
+ height: 200px;
+ width: 350px;
+}
+.dye:hover
+{
+    transform: scale(1.09);
+    transition: transform 420ms;
+}
+.data
+{
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/09/22/55386/seagrass-02.jpg");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    display: flex; 
+    gap: 20px;
+    padding-top: 10%;
+    color: white;
+}
+.data .video h1
+{
+   
+    padding: 30px;
+}
+.video1
+{
+    /* border: #f78da7 solid 5px; 
+    max-width: 40%;
+    border-radius: 10px;
+    display: inline-block;
+    /* transition: transform 0.3s ease; */
+    border: 2px solid forestgreen;
+    max-width: 40%;
+    border-radius: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.video1:hover
+{
+    transform: scale(1.09);
+    transition: transform 420ms;
+}
+.video2
+{
+    border: forestgreen solid 2px;
+    max-width: 40%;
+    border-radius: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.video2:hover
+{
+    transform: scale(1.09);
+    transition: transform 420ms;
+}
+.video3
+{
+    border: forestgreen 2px;
+    max-width: 40%;
+    border-radius: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.video3:hover
+{
+    transform: scale(1.09);
+    transition: transform 420ms;
+}
+.video4
+{
+    border: forestgreen solid 2px;
+    max-width: 40%;
+    border-radius: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.video4:hover
+{
+    transform: scale(1.09);
+    transition: transform 420ms;
+}
+.button
+{
+     background-color: rgb(43, 40, 40); 
+     padding: 50px;
+    padding-left: 90%
+    
+}
+footer
+ {
+    padding: 50px 4% 10px;
+    color: white;
+    background-color: black;
+ }
+ footer h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 30px 0;
+    color: white;
+ }
+ footer .row 
+ {
+    display: flex;
+    align-items: start;
+    padding: 10px 0px ;
+ }
+ footer .column
+ {
+    margin: 10px 50px;
+ }
+ footer .column a 
+ {
+    text-decoration: none;
+    padding: 8px;
+    color:#666;
+    display: block;
+    font-size: 0.8rem;
+
+ }
+ span .user
+ {
+   padding: 4px 8px;
+   border: 2px solid #a3a3a3;
+ }

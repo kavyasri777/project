@@ -12,7 +12,7 @@
     max-width: 100%; 
     background-repeat: no-repeat;
     height: 1000px;
-    background-image:url("https://static.vecteezy.com/system/resources/thumbnails/022/967/276/small/the-landscape-of-natural-grass-field-and-trees-with-ai-generated-free-photo.jpg ;");
+    background-image:url("https://images.pexels.com/photos/66869/green-leaf-natural-wallpaper-royalty-free-66869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     object-fit: contain;
    
 }
@@ -21,6 +21,13 @@
     padding: 40px;
     background-color: darkslategrey;
     color: aliceblue;
+    padding-left: 500px;
+}
+.image img
+{
+    height: 20px;
+    width: 20px;
+    /* padding-left: 500px; */
 }
 
 .bio h1
@@ -31,6 +38,8 @@
 .bio
 {
     margin: 20px;
+    /* display: flex;
+      */
 }
  .click1
  {
@@ -63,14 +72,29 @@
 .degradable
 {
     
-    display: flex;
+     display: flex; 
     padding: 150px;
+    animation: de 2s linear infinite;
+}
+@keyframes de
+{
+0%
+{
+   transform:  scale(1.09); 
+   /* background-color: darkslategray; */
+}
 }
 .degradable img
 {
   border-radius: 100%;
   height: 200px;
- 
+ animation: im 2s linear infinite;
+}
+@keyframes im{
+    100%
+    {
+        /* transform: rotate(45deg) scale(1.09); */
+    }
 }
 .degradable p
 {
@@ -82,7 +106,7 @@
 }
 .nondegradable
 {
-    display: flex;
+     display: flex; 
     padding: 50px;
     margin-left: 25%;
 }
